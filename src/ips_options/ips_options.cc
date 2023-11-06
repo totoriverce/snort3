@@ -72,7 +72,7 @@ extern const BaseApi* ips_ip_proto[];
 extern const BaseApi* ips_isdataat[];
 extern const BaseApi* ips_itype[];
 extern const BaseApi* ips_msg[];
-extern const BaseApi* ips_pcre[];
+extern const BaseApi* ips_pcre2[];
 extern const BaseApi* ips_priority[];
 extern const BaseApi* ips_raw_data[];
 extern const BaseApi* ips_rem[];
@@ -146,7 +146,7 @@ void load_ips_options()
     PluginManager::load_plugins(ips_isdataat);
     PluginManager::load_plugins(ips_itype);
     PluginManager::load_plugins(ips_msg);
-    PluginManager::load_plugins(ips_pcre);
+    PluginManager::load_plugins(ips_pcre2);
     PluginManager::load_plugins(ips_priority);
     PluginManager::load_plugins(ips_raw_data);
     PluginManager::load_plugins(ips_rem);
