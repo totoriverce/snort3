@@ -60,9 +60,9 @@ struct PacketCount
     PegCount offload_fallback;
     PegCount offload_failures;
     PegCount offload_suspends;
-    PegCount pcre_match_limit;
-    PegCount pcre_recursion_limit;
-    PegCount pcre_error;
+    PegCount pcre2_match_limit;
+    PegCount pcre2_recursion_limit;
+    PegCount pcre2_error;
     PegCount cont_creations;
     PegCount cont_recalls;
     PegCount cont_flows;
